@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 const Cards = () => {
     const [cards, setCards]=useState([]);
     useEffect(()=>{
-            fetch(`http://localhost:5000/sevices`)
+            fetch(`https://roesat-server-2.vercel.app/services`)
             .then(res=>res.json())
             .then(data=>setCards(data))
     }
