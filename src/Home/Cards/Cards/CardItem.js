@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardItem = ({card}) => {
     const {img,name,}=card;
-    const {brand_name,postedDate,yearUsed}=card.category;
+    const {brand_name}=card.category;
     console.log(card.category)
     return (
             
